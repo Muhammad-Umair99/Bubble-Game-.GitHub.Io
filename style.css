@@ -1,29 +1,36 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: gloury;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+
+
+#main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #13262F   ;
+    background-color: #13262F;
 }
-#panel{
-   overflow: hidden;
+
+#panel {
+    overflow: hidden;
     height: 80%;
     width: 80%;
     border-radius: 10px;
     background-color: #B0A084;
-}   
-#ptop{
+}
+
+#ptop {
     padding: 0 20%;
     display: flex;
     align-items: center;
@@ -33,17 +40,52 @@ html,body{
     height: 100px;
     background-color: #583e23;
 }
-.elem{
+
+.elem {
     display: flex;
-  align-items: center;
-  gap: 20px;
+    align-items: center;
+    gap: 20px;
 
 }
-.box{
+
+.elem h2 {
+    font-weight: 500;
+}
+
+.box {
     padding: 10px 20px;
     background-color: white;
     border-radius: 6px;
     color: #583e23;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+#pbtm {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+
+
+
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 500;
+    width: 40px;
+    height: 40px;
+    background-color: #583e23;
+    color: white;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: #864d10;
 }
